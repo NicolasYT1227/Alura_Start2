@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <title>Descrição da Escola</title>
+
+    <style>
+        body {
+	        font-family: 'Montserrat', sans-serif;
+        }
+
+        img {
+            width: 15%;
+        }
+
+        .principal {
+	        position: relative;
+	        width: 940px;
+            padding: 3em 0;
+	        margin: 0 auto;
+        }
+
+        .principal em {
+            font-style: italic;
+            background: gray;
+        }
+
+        nav {
+	        position: absolute;
+	        top: 109px;
+	        right: 0;
+        }
+
+        nav li {
+	        display: inline;
+	        margin: 0 0 0 15px;
+        }
+
+        
+        nav a {
+	        text-transform: uppercase;
+	        color: #000000;
+	        font-weight: bold;
+	        font-size: 22px;
+	        text-decoration: none;
+        }
+
+        nav a:hover {
+	        color: #C78C19;
+	        text-decoration: underline;
+        }
+
+        .nav-desc {
+            display: inline-block;
+            background-color: gray;
+        }
+
+        @media screen and (max-width: 480px) {
+	        .caixa, .principal, .coteudo-beneficios, .mapa-conteudo, .video {
+		        width: auto;
+            }
+
+            nav {
+                padding: 7px;
+                position: static;
+            }
+	    }
+
+        .box-text {
+            background: rgba(#CCC, gray);
+        }
+
+        .text-desc {
+            text-align: center;
+        }
+
+        .desc-escola {
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body>
+      <div class="principal">
+        <div class="nav-desc">
+            <img id="banner" src="logoart.png">
+
+            <nav class="direction-top">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="descricao-escola.html">Descrição do Colégio</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
+        <div class="box-text">
+            <div class="caixa">
+                <h1 class="text-desc">Sobre o Colégio</h1>
+                <div class="desc-escola">
+                    <p>O Colégio Estadual, é uma rede de Ensino Público, localizado em Parariso Do Norte.
+                        Ele tem o Intuito de preparar seus alunos para <strong>Concurso Público</strong> ou <strong>Faculdade</strong>.
+                    </p>
+                    <br>
+                    <p>Sua intituicão conta com <strong>alunos de Ensino Fundamental 2</strong> e <strong>alunos de Ensino Médio</strong>. O colégio também conta com ótimos <strong>Professores.</strong></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

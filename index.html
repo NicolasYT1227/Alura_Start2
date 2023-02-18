@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <title>Alura Start</title>
+
+    <style>
+        body {
+	        font-family: 'Montserrat', sans-serif;
+        }
+
+        img {
+            width: 15%;
+        }
+
+        .principal {
+	        position: relative;
+	        width: 940px;
+            padding: 3em 0;
+	        margin: 0 auto;
+        }
+
+        .principal em {
+            font-style: italic;
+            background: gray;
+        }
+
+        nav {
+	        position: absolute;
+	        top: 109px;
+	        right: 0;
+        }
+
+        nav li {
+	        display: inline;
+	        margin: 0 0 0 15px;
+        }
+
+        
+        nav a {
+	        text-transform: uppercase;
+	        color: #000000;
+	        font-weight: bold;
+	        font-size: 22px;
+	        text-decoration: none;
+        }
+
+        nav a:hover {
+	        color: #C78C19;
+	        text-decoration: underline;
+        }
+
+        @media screen and (max-width: 480px) {
+	        .caixa, .principal, .coteudo-beneficios, .mapa-conteudo, .video {
+		        width: auto;
+            }
+
+            nav {
+                position: static;
+            }
+	    }
+
+        .box-structure {
+            
+        }
+
+        .btn {
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background: gray;
+        }
+
+        .alunos {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .alunos-imagens {
+            width: 27%;
+        }
+
+        .nav-desc {
+            background-color: gray;
+        }
+
+        .professores-desc {
+            list-style: none;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 2px;
+            text-align: center;
+        }
+
+        .professores-desc:hover {
+            cursor: pointer;
+            background: gray;
+        }
+
+        .professores-imagens {
+            width: 18%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="principal">
+        <div class="nav-desc">
+            <img src="logoart.png">
+
+            <nav class="direction-top">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="descricao_escola.html">Descrição do Colégio</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <br><br>
+        <div class="box-structure">
+            <div class="inputs">
+                <ul class="alunos">
+                    <li>
+                        <img class="alunos-imagens" src="alunos.jpeg">
+                        <p><a href="alunos_colegio.html" class="btn">Alunos do Colégio</a></p>
+                    </li>
+                    <li>
+                        <img class="professores-imagens" src="professores.jpeg">
+                        <p><a href="professores.html" class="professores-desc">Professores</a></p>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+
+    <script src="js/principal.js" defer></script>
+</body>
+</html>
